@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/master.css" />
-    <link rel="stylesheet" href="css/framework.css" />
+    
+   
     <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
     <title>Dashboard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +16,9 @@
 </head>
 <body>
     <div class="page d-flex">
-        <div class="sidebar bg-white p-20 p-relative">
+        <div class="sidebar bg-dark p-20 p-relative">
         <h3 class="p-relative text-center mt-0">Catchmyweb</h3>
-        <ul>
+        <ul class="p-center">
             <li>
                 <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
                     <i class="fa-solid fa-chart-bar fa-fw"></i>
@@ -68,7 +70,23 @@
         </ul>
         
         </div>
-        <div class="content">Content</div>
+        <div class="content w-full">
+          <!-- Start head  -->
+
+          <div class="head bg-white p-15 between-flex">
+            <div class="search p-relative">
+              <input class="p-10" type="search" placeholder="Type A Keyword" />
+            </div>
+            <div class="icons d-flex align-center">
+<span class="notification p-relative">
+  <i class="fa-regular fa-bell fa-lg"></i>
+</span>
+<img src="imgs/avatar.png" alt=""/>
+            </div>
+          </div>
+          <!-- end head  -->
+          <h1 class="p-relative">Dashboard</h1>
+        </div>
     </div>
     
 </body>
