@@ -209,7 +209,12 @@
 .fs-14 {
   font-size: 14px;
 }
-
+@media (max-width: 767px) {
+    .text-center-mobile {
+        text-align: center;
+    }
+   
+  }
 /* End Font */
 
 /* Start border */
@@ -217,7 +222,12 @@
 .rad-6 {
   border-radius: 6px;
 }
-
+.rad-10 {
+    border-radius: 10px;
+}
+.b-none {
+  border: none;
+}
 /* End border */
 
 
@@ -259,3 +269,18 @@
 
 
 /* End component */
+
+/* Start Quick Draft Widget */
+.quick-draft textarea {
+  resize: none;
+  min-height: 180px;
+}
+.quick-draft .save {
+  margin-left: auto;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.quick-draft .save:hover {
+  background-color: var(--blue-alt-color);
+}
+/* End Quick Draft Widget */
