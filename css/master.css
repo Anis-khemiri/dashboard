@@ -25,7 +25,7 @@ a {
   width: 15px;
 }
 ::-webkit-scrollbar-track {
-  background-color: rgb(202, 62, 62);
+  background-color: rgb(213, 193, 193);
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--blue-color);
@@ -76,10 +76,10 @@ a {
 .sidebar ul li a {
   transition: 0.3s;
   margin-bottom: 5px;
-  color: #697085;
+  color: #89a0e7
 }
 .sidebar ul li a span {
-  font-size: 12px;
+ 
   margin-left: 10px;
 }
 @media (max-width: 767px) {
@@ -191,7 +191,7 @@ a {
   overflow: hidden
 }
 .welcome .intro img {
-  width: 450px;
+ 
   height: 200px;
   margin-bottom: -10px;
  
@@ -569,8 +569,17 @@ a {
   padding-left: 10px;
   border-radius: 0 6px 6px 0;
 }
+
+
+
+
+
+
+
+
 .settings-page .social-boxes > div:focus-within i {
   color: black;
+  animation: change-color 1s infinite alternate;
 }
 .widgets-control .control input[type="checkbox"] {
   -webkit-appearance: none;
@@ -1162,13 +1171,24 @@ a {
     background-color: white;
   }
 }
+
+@keyframes change-color2 {
+  from {
+    background-color: rgb(236, 228, 85);
+  }
+  to {
+    background-color: white;
+  }
+}
+
 @keyframes go-up {
   0%,
   100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-5px);
+    transform: translateY(-7px);
   }
 }
+
 /* End Animation */
